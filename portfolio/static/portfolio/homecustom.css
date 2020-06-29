@@ -171,7 +171,7 @@ body {
 .btn-white::after {
     background-color: white;
 }
-.btn:hover::after {
+.bttn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
@@ -186,4 +186,10 @@ body {
 }
 a .nav-link:hover {
     color: white;
+}
+.imagecontainer {
+    transition:all .5s ;
+}
+.imagecontainer:hover {
+    transform: translateY(-3px);
 }
