@@ -19,10 +19,10 @@
   <title>Harsh Ranjan</title>
 </head>
 
-<body >
+<body style="background-image: linear-gradient(to right ,#2523b363,#e2512ca4)">
 
   <nav id="topNav" class="navbar navbar-expand-md navbar-light">
-    <div class="container" >
+    <div class="container" style="margin: 0;max-width: inherit;" >
       <a class="navbar-brand" href="{% url 'home' %}">
         <img src="{% static "portfolio/Logo.png" %}" width="30" height="30" class="d-inline-block align-top" alt="Nick's Logo">
         <span>Harsh Ranjan</span>
@@ -48,7 +48,7 @@
       </div>
     </div>
   </nav>
-  <div class="container">
+  <div style="margin-left:20px;margin-right: 20px;">
     {% block content %}{% endblock %}
   </div>
 

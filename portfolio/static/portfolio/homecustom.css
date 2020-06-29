@@ -184,3 +184,6 @@ body {
     clip-path: polygon(0 10vh,100% 0,100% 90vh,0 100%);
 
 }
+a .nav-link:hover {
+    color: white;
+}
