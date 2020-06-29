@@ -3,18 +3,30 @@
 {% load static %}
 
 {% block content %}
-
-<div class="row justify-content-center my-3">
+<link rel="stylesheet" href="{% static "portfolio/homecustom.css" %}">
+<header class="header">
+  <div class="text-box">
+  <h1 class="heading-primary">
+    <span class="heading-primary-main">
+      <img src="{% static 'portfolio/home.jpg' %}" class="img-fluid" width="350" height="350" style="border-radius: 250px;box-shadow: 0 20px 30px rgba(0, 0, 0, .6);margin-bottom: 20px;">
+    </span>
+      <span class="heading-primary-main"><span style="color: white;">Harsh Ranjan</span></span>
+      <span class="heading-primary-sub">is a Software Developer and lives in <span>Dhanbad</span></span>
+  </h1>
+  <a href="{% url 'blog:all_blogs' %}" class="bttn btn-white btn-animated">See Blogs</a>
+</div>
+</header>
+<!-- <div class="row justify-content-center my-3">
   <div class="col-5">
     <img src="{% static 'portfolio/home.jpg' %}" class="img-fluid" style="border-radius: 250px;">
   </div>
-</div>
+</div> -->
 
-<div class="row justify-content-center mb-3">
+<!-- <div class="row justify-content-center mb-3">
   <div class="col-md-9 text-center">
-    <h1 id="hometext" class="font-weight-bold"><span style="color: blue;">Harsh Ranjan</span> <br>is a Software Developer and lives in <span style="color: red;">Dhanbad</span> 😎</h1>
+     <h1 id="hometext" class="font-weight-bold"><span style="color: blue;">Harsh Ranjan</span> <br>is a Software Developer and lives in <span style="color: red;">Dhanbad</span> 😎</h1> 
   </div>
-</div>
+</div> -->
 
 <h2 class="mt-5">Portfolio</h2>
 <hr>
