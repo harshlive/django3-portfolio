@@ -179,3 +179,8 @@ body {
     animation: moveUpButton .5s ease-out .75s;
     animation-fill-mode: backwards;
 }
+.text-box-2 {
+    background-image: linear-gradient(to right ,#8da789d5,#28b485da) , url(/static/portfolio//hero.jpg);
+    clip-path: polygon(0 10vh,100% 0,100% 90vh,0 100%);
+
+}
